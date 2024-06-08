@@ -1,9 +1,10 @@
 package utils
 
 import (
-	"github.com/google/logger"
 	ioutil "io/ioutil"
 	"log"
+
+	"github.com/google/logger"
 )
 
 func Init(name string, verbose bool) error {

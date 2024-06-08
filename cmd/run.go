@@ -9,10 +9,9 @@ package main
 import (
 	"flag"
 	"fmt"
+	"imagescraper/utils"
 	"os"
 	"sync"
-
-	"github.com/ty4z2008/image-downloader/utils"
 )
 
 var (

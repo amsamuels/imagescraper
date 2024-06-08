@@ -1,5 +1,10 @@
-module github.com/ty4z2008/image-downloader
+module imagescraper
 
-go 1.13
+go 1.22.0
 
-require github.com/google/logger v1.1.0
+require (
+	github.com/google/logger v1.1.1
+
+)
+
+require golang.org/x/sys v0.0.0-20210426230700-d19ff857e887 // indirect
